@@ -1,0 +1,89 @@
+body {
+    background-color: #0C164D;
+    width: 1440px;
+    height: 900px;
+}
+
+.Titel {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 625px;
+    color: rgba(255, 255, 255, 1);
+    text-align: right;
+    font-family: Secular One;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 60px */
+    letter-spacing: 5.4px;
+}
+
+h2 {
+    width: 625px;
+    color: #FFD029;
+    text-align: right;
+    font-family: Lora;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 24px */
+    letter-spacing: 14.4px;
+}
+
+.Solsystemet {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Planeter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.div.Solen {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    width: 1278px;
+    height: 1278px;
+    border-radius: 1278px;
+    background: #FFD029;
+    box-shadow: 0px 0px 250px 0px rgba(255, 208, 41, 0.20);
+}
+
+.Saturnus {
+    position: relative;
+    align-self: center;
+    top: 0;
+    left: 0;
+}
+
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+.image2 {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+
+button {
+    background-color:#0C164D;
+    
+}
